@@ -1,0 +1,148 @@
+body {
+  font-family: 'Georgia ', serif;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* Section 1*/
+
+#hero {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.1)),
+  url('bckgrd.jpg');
+  height: 975px;
+  background-size: cover;
+  color: #fff;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  height: 975px;
+}
+.container nav a {
+  margin: 0 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+.container nav a:hover{
+  transition: .5s;
+  transform: scale(1.1);
+}    
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li:hover{
+  transition: .5s;
+  transform: scale(1.1);
+}
+.content {
+  position: relative;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 800;
+  text-transform: uppercase;
+  width: 600px;
+  margin: 300px 0px 200px;
+}
+.content button {
+  font-size: 32px;
+  color: #fff;
+  background-color: transparent;
+  border: solid #fff;
+  border-radius: 4px;
+  padding: 8px 32px;
+  cursor: pointer;
+}
+.content button:hover {
+  background-color: grey;
+}
+.scrl{
+  position: relative;
+  text-align: center;
+  width: 600px;
+}
+.scrl a{
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+  position: relative;
+  width: 80px;
+  height: 36px;
+  margin: 0 auto;
+}
+.fa{
+  transform: rotate(90deg);
+}
+.scrl a:hover{
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+/* Section 2*/
+
+#hero2{
+  height: 900px;
+  color: #fff;
+}
+.container2{
+  max-width: 900px;
+  margin: 0 auto;
+  height: 900px;
+}
+.image-container{
+  width: 450px;
+  height: 900px;
+  float: left;
+}
+.image-container img{
+  position: relative;
+  top: 10%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 25px;
+}
+.image-container img:hover{
+  transition: .3s;
+  transform: scale(1.1);
+}
+.text-container{
+  width: 450px;
+  height: 900px;
+  float: right;
+}
+.text-container h1{
+  color: black;
+  position: relative;
+  top: 10%;
+  margin: 50px 50px;
+  font-size: 60px;
+}
+.text-container p{
+  color: black;
+  position: relative;
+  top: 15%;
+  margin-left: 50px;
+  font-size: 25px;
+}
+.ftr{
+  height: 75px;
+  width: auto;
+  background-color: rgb(30,30,30);
+}
+.text-ftr{
+  padding-top: 20px;
+}
+.ftr p{
+  width: 900px;
+  margin: 0 auto;
+  color: white;
+}
