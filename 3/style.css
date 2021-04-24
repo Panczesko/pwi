@@ -12,7 +12,6 @@ html{
   height: 100%;
   background-size: cover;
   color: #fff;
-  width: 100%;
 }
 .container {
   display: block;
@@ -99,7 +98,6 @@ cursor: pointer;
 /*Footer*/
 .ftr{
   height: 50px;
-  width: 100%;
   background-color: rgb(30,30,30);
 }
 .ftr p{
