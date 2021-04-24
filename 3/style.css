@@ -32,7 +32,6 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: auto;
   margin: 0 auto;
 }
 .container nav ul {
@@ -116,7 +115,6 @@ html{
     display: block;
     position: relative;
     text-align: center;
-    padding: auto;
   }
   .scrl a{
     text-align: center;
