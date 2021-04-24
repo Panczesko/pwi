@@ -1,0 +1,167 @@
+body {
+  font-family: 'Georgia ', serif;
+  margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+    /* Section 1*/
+#hero {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgb(0,0,0,0.1)),
+  url('bckgrd.jpg');
+  height: auto;
+  background-size: cover;
+  color: #fff;
+}
+.container {
+  display: block;
+  justify-content: center;
+  height: 100%;
+}
+.container nav a {
+  margin: 0 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+.container nav a:hover{
+  transition: .5s;
+  transform: scale(1.1);
+}  
+.container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: auto;
+  margin: 0 auto;
+}
+.container nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.container nav ul li:hover{
+  transition: .5s;
+  transform: scale(1.1);
+}
+.content {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 80%;
+  margin: 15% auto;
+}
+.content button {
+  font-size: 32px;
+  color: #fff;
+  background-color: transparent;
+  border: solid #fff;
+  border-radius: 4px;
+  padding: 8px 32px;
+  cursor: pointer;
+}
+.content button:hover {
+  background-color: grey;
+}
+.scrl{
+  height: 40px;
+}
+.scrl a{
+  display: none;
+}
+/* Section 2*/
+#hero2{
+  height: 100%;
+  color: #fff;
+}
+.container2{
+  margin: 0 auto;
+  padding: 5% 0;
+  overflow: auto;
+}
+.container2 img{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 25px;
+  display: block;
+  margin: 0 auto;
+}
+.container2 h1{
+  color: black;
+  font-size: 60px;
+}
+.container2 p{
+  color: black;
+  font-size: 25px;
+}
+/*Footer*/
+.ftr{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(30,30,30);
+}
+.ftr p{
+  margin: 0 0 0 25%;
+  padding-top: 5px;
+  color: white;
+}
+
+
+@media only screen and (min-width: 640px){
+  /* Section 1*/
+  .content {
+    font-size: 60px;
+    font-weight: 800;
+  }
+  .scrl{
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: auto;
+  }
+  .scrl a{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    position: relative;
+    width: 80px;
+    height: 36px;
+    margin: 0 auto;
+  }
+  .fa{
+    transform: rotate(90deg);
+  }
+  .scrl a:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+  }
+  .container nav {
+    margin: 0 25%;
+  }
+  /* Section 2*/
+  .container2{
+    margin: 0 5%;
+    overflow: auto;
+  }  
+  .container2 img{
+    float: left;
+    width: 45%;
+  }
+  .container2 img:hover{
+    transition: .3s;
+    transform: scale(1.1);
+  }
+  .container2 h1{
+    color: black;
+    font-size: 60px;
+    width: 45%;
+    float: right;
+  }
+  .container2 p{
+    color: black;
+    font-size: 25px;
+    width: 45%;
+    float: right;
+  }
+}
